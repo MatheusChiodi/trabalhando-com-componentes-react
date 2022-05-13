@@ -1,16 +1,18 @@
+import Item from "./components/item";
+
 const App = () =>{
     return (
         <>
             <h1>Minha primeira aplicação com React</h1>
             <ul className="list-group">
                 <li>
-                   
+                    <Item>Item 1</Item>
                 </li>
                 <li>
-                    <a href="/" className="list-group-item list-group-item-action list-group-item-dark">Item 2</a>
+                    <Item>Item 2</Item>
                 </li>
                 <li>
-                    <a href="/" className="list-group-item list-group-item-action list-group-item-dark">Item 3</a>
+                    <Item>Item 3</Item>
                 </li>
            </ul>
         </>

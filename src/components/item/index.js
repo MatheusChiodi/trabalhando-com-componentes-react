@@ -1,7 +1,9 @@
-const Item = () => {
-          return{
-                    <a href="/" className="list-group-item list-group-item-action list-group-item-dark">Item 1</a>
-          }
+const Item = ( {children} ) => {
+    return(
+        <a href="/" className="list-group-item list-group-item-action list-group-item-dark">
+            {children}
+        </a>
+    ) 
 }
 
 export default Item; 
